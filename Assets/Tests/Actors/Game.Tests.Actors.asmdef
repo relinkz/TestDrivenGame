@@ -1,10 +1,11 @@
 {
-    "name": "Tests",
+    "name": "Game.Tests.Actors",
     "rootNamespace": "",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "Scipts"
+        "Game.Scripts.Actors",
+        "Game.Scripts.Interfaces"
     ],
     "includePlatforms": [
         "Editor"
@@ -13,7 +14,8 @@
     "allowUnsafeCode": false,
     "overrideReferences": true,
     "precompiledReferences": [
-        "nunit.framework.dll"
+        "nunit.framework.dll",
+        "NSubstitute.dll"
     ],
     "autoReferenced": false,
     "defineConstraints": [

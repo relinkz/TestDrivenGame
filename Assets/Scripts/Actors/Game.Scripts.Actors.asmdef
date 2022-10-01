@@ -1,0 +1,17 @@
+{
+    "name": "Game.Scripts.Actors",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e1aa2d7b211c3c24680008d87c19d1e7",
+        "GUID:8f3553857da82cb429efaa1f5070022e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
