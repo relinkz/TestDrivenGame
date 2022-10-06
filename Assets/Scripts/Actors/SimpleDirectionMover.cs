@@ -13,6 +13,11 @@ namespace Actors
 			Destroy(gameObject);
 		}
 
+		private void Start()
+		{
+			transform.rotation = Tools.MathHelpers.CreateRotateQuat(transform.forward, direction);
+		}
+
 		private void Update()
 		{
 			Move(direction.normalized, (speed / 100.0f));
