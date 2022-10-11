@@ -15,7 +15,7 @@ public class MathHelperTests
 	[Test]
 	public void MathHelpTest_UpDotRight()
 	{
-		var expected = Quaternion.Euler(0.0f, 0.0f, -90);
+		var expected = Quaternion.Euler(0.0f, 0.0f, 90);
 		Assert.AreEqual(expected, MathHelpers.CreateRotateQuat(Vector2.up, Vector2.right));
 	}
 

@@ -1,3 +1,16 @@
 {
-	"name": "Game.Scripts.Tools"
+    "name": "Game.Scripts.Tools",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e1aa2d7b211c3c24680008d87c19d1e7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

@@ -5,10 +5,10 @@ public class Despawner : MonoBehaviour
 {
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
-		var destroyable = collision.gameObject.GetComponent<IDestroyable>();
+		var destroyable = collision.gameObject.GetComponent<IHealth>();
 		if (destroyable != null)
 		{
-			destroyable.Destroyable();
+			destroyable.Destroy();
 		}
 	}
 }

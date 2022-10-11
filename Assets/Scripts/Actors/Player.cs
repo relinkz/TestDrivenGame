@@ -3,11 +3,14 @@ using Interfaces;
 
 namespace Actors
 {
-	public class Player : Movable, IDestroyable
+	public class Player : Movable, IHealth
 	{
+		int health;
 		[SerializeField] private float speed = 1.0f;
 		public readonly float maxX = 8.5f;
 		public readonly float maxY = 4.5f;
+
+		public int Health => health;
 
 		public Vector2 RemoveXDirectionIfOutsideScreen(Vector2 dir)
 		{
@@ -67,9 +70,19 @@ namespace Actors
 			HandleMovement();
 		}
 
-		public void Destroyable()
+		public void Destroy()
 		{
 			Destroy(gameObject);
+		}
+
+		public void Heal(int healing)
+		{
+			throw new System.NotImplementedException();
+		}
+
+		public int TakeDamage(int dmg)
+		{
+			throw new System.NotImplementedException();
 		}
 	}
 }
